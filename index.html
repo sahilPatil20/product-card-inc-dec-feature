@@ -9,8 +9,28 @@
 </head>
 <body>
     
-    <div><span>Product Card</span></div>
+    <div class="product-card d-block mx-auto bg-white m-5 rounded-4">
+        <img src="./img/watch-removebg-preview.png" alt="watch" class="img-watch d-block mx-auto rounded-4">
+        <p class="title mt-3 fw-medium text-center">
+            Decker Chronograph Brown Leather Watch
+        </p>
+        <p class="discription text-center">
+            Genuine leather and a cream dial make our sport-inspired Decker watch for every day.
+        </p>
+        <p class="ps-3 fs-5 fw-medium">
+            ₹5,097.00
+        </p>
+        <div class="d-flex justify-content-center align-items-center py-3">
+            <img src="./img/minus.png" alt="minus" class="quantity-btn border border-black rounded-circle p-1" onclick="dec()">
+            <span class="fs-4 mx-3 fw-medium" id="quantity-text">1</span>
+            <img src="./img/plus.png" alt="plus" class="quantity-btn border border-black rounded-circle p-1" onclick="inc()">
+            
+        </div>
+        <button class="buy-now-btn d-block mx-auto py-2 px-3 rounded-4 border fs-5 fw-medium">Buy Now</button>
+    </div>
 
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
